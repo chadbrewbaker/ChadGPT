@@ -16,9 +16,6 @@
 
 * [StableLM](https://github.com/stability-AI/stableLM/) released today. 
 
-* 
-
-
 ## Presentation:  Self-hosting large language models
 * What is a large language model(LLM)?
 
@@ -54,13 +51,15 @@
 
 * [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
 
-* [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
+* [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)  - [BabyAGI](https://github.com/yoheinakajima/babyagi) - use GPT and scripts to drive other GPTs and scripts.
 
 * [Reddit GPT](https://www.reddit.com/r/ChatGPT/comments/12o29gl/gpt4_week_4_the_rise_of_agents_and_the_beginning/) has good weekly briefings.
 
 ## Run your own LLM - [llama.cpp](https://github.com/ggerganov/llama.cpp) and [web-llm](https://github.com/mlc-ai/web-llm)
 
 * [llama.cpp](https://github.com/ggerganov/llama.cpp) - a fork of whisper.cpp - most widely used C++ code to host your own LLM.
+
+* [Huggingface](https://huggingface.co/models) - stores open models as Git LFS.
 
 * [web-llm](https://github.com/mlc-ai/web-llm) - uses WebGPU to run in the LLM in your browser.
 

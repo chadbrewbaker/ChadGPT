@@ -30,6 +30,10 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 * A LLM is a data structure. Given k tokens, it outputs the probability of the next token.
 
+* ChatGPT4 is [approching Library of Congress training size](https://lifearchitect.ai/chinchilla/). We are running out of data.
+
+* New data will probablyb come from [reflection](https://nanothoughts.substack.com/p/reflecting-on-reflexion) prompting an LLM with it's own output for deeper insight.
+
 * [BabyGPT](https://t.co/8jdceMLpqy) - a three bit LLM
 
 * Tokenize -  Train - Infer trained model

@@ -32,15 +32,19 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 * ChatGPT4 is [approching Library of Congress training size](https://lifearchitect.ai/chinchilla/). We are running out of data.
 
-* New data will probablyb come from [reflection](https://nanothoughts.substack.com/p/reflecting-on-reflexion) prompting an LLM with it's own output for deeper insight.
+* New data will probably come from [reflection](https://nanothoughts.substack.com/p/reflecting-on-reflexion)  - prompting an LLM with it's own output for deeper insight.
 
 * [BabyGPT](https://t.co/8jdceMLpqy) - a three bit LLM
 
-* Tokenize -  Train - Infer trained model
+* Tokenize -  Train - Infer trained model - Quantize model to shrink size
 
 * [OpenAI TickToken](https://github.com/openai/tiktoken) - high performance tokenizer.
 
 * LLM Training can cost millions - OpenAI burned spare GPU at Azure WDM after Bitcoin crash as tax writeoff.
+
+* LLM training and inference involve mostly tensor (matrix) operations.
+
+* [Cerebras wafer scale chips](https://www.cerebras.net) -  [Tenstorrent accelerator chips](https://tenstorrent.com)
 
 * Once you have a LLM - [fine-tuning can cost as low as $3](https://www.youtube.com/watch?v=yTROqe8T_eA)
 

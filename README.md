@@ -2,6 +2,8 @@
 
 <img src="https://static.wikia.nocookie.net/virgin-vs-chad/images/7/79/Chad.png/revision/latest?cb=20201214194847" width="200">
 
+Run (llama.cpp distributed over MPI)[https://github.com/chadbrewbaker/llama.cpp/tree/mpi]
+
 ## Centeral Iowa Linux Users Group <br> 19 April 2023 <br>
 
 ## News for April 2023

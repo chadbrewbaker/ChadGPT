@@ -18,6 +18,8 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 * [StableLM](https://github.com/stability-AI/stableLM/) released today. 
 
+* Rust foundation meltdown - [Primeagen stream](https://www.youtube.com/watch?v=gutR_LNoZw0) - [Oxide Computer discussion](https://www.youtube.com/watch?v=N-ADQ5n7HoY)
+
 ## Presentation:  Self-hosting large language models
 * What is a large language model(LLM)?
 

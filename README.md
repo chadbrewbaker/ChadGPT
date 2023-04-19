@@ -33,25 +33,36 @@
 
 * [BabyGPT](https://t.co/8jdceMLpqy) - a three bit LLM
 
-* 1) Tokenize 2) Train 3) Infer trained model
+* Tokenize -  Train - Infer trained model
 
+* [OpenAI TickToken](https://github.com/openai/tiktoken) - high performance tokenizer.
 
+* LLM Training can cost millions - OpenAI burned spare GPU at Azure WDM after Bitcoin crash as tax writeoff.
+
+* Once you have a LLM - [fine-tuning can cost as low as $3](https://www.youtube.com/watch?v=yTROqe8T_eA)
+
+* [vast.ai](https://vast.ai) - [lambdalabs](https://lambdalabs.com/service/gpu-cloud#pricing) - [Google Colab Notebooks](https://colab.research.google.com)
 
 * [PicoGPT](https://github.com/jaymody/picoGPT/blob/main/gpt2_pico.py)
 
 * [NanoGPT](https://github.com/karpathy/nanoGPT) - [video tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 
-* [OpenAI TickToken](https://github.com/openai/tiktoken) - high performance tokenizer.
-
-* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
 
 ## What can I do with an LLM?
 
 * ChatGPT4 Demo
 
+* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
+
 * [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)
 
 * [Reddit GPT](https://www.reddit.com/r/ChatGPT/comments/12o29gl/gpt4_week_4_the_rise_of_agents_and_the_beginning/) has good weekly briefings.
+
+## Run your own LLM - [llama.cpp](https://github.com/ggerganov/llama.cpp) and [web-llm](https://github.com/mlc-ai/web-llm)
+
+* [llama.cpp](https://github.com/ggerganov/llama.cpp) - a fork of whisper.cpp - most widely used C++ code to host your own LLM.
+
+* [web-llm](https://github.com/mlc-ai/web-llm) - uses WebGPU to run in the LLM in your browser.
 
 
 

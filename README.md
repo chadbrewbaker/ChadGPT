@@ -28,13 +28,22 @@
 
 
 ## What is a large languge model (LLM)?
+
+* A LLM is a data structure. Given k tokens, it outputs the probability of the next token.
+
+* [BabyGPT](https://t.co/8jdceMLpqy) - a three bit LLM
+
+* 1) Tokenize 2) Train 3) Infer trained model
+
+
+
 * [PicoGPT](https://github.com/jaymody/picoGPT/blob/main/gpt2_pico.py)
 
 * [NanoGPT](https://github.com/karpathy/nanoGPT) - [video tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 
 * [OpenAI TickToken](https://github.com/openai/tiktoken) - high performance tokenizer.
 
-* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text
+* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
 
 ## What can I do with an LLM?
 

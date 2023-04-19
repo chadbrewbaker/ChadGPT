@@ -61,7 +61,7 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 * [ChatGPT4 Demo](https://chat.openai.com/?model=gpt-4#) - GitHub Copilot demo if you want
 
-* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
+* [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text - WANTED live transcription for meetings.
 
 * [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)  - [BabyAGI](https://github.com/yoheinakajima/babyagi) - use GPT and scripts to drive other GPTs and scripts.
 

@@ -75,6 +75,18 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 * [web-llm](https://github.com/mlc-ai/web-llm) - uses WebGPU to run in the LLM in your browser.
 
+## Linux Predictions
+
+* Linux 7 will have a LLM of various sizes and an SMT solver to prove responses correct.
+
+* CGROUPS3 - closer to AWS Zelkova and AWS IAM
+
+* Kernel LLM will be used as a dictionary for data compression.
+
+* Oxide Computer size racks will have distrubuted linux schedulers. Kubernetes goes extinct.
+
+* More systems code like compilers will run on GPU.
+
 
 
 

@@ -59,7 +59,7 @@ Run [llama.cpp distributed over MPI](https://github.com/chadbrewbaker/llama.cpp/
 
 ## What can I do with an LLM?
 
-* [ChatGPT4 Demo](https://chat.openai.com/?model=gpt-4#)
+* [ChatGPT4 Demo](https://chat.openai.com/?model=gpt-4#) - GitHub Copilot demo if you want
 
 * [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - use OpenAI whisper to transcribe audio to text.
 

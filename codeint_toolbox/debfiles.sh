@@ -9,6 +9,9 @@
 wget -nc http://ubuntu.cs.utah.edu/ubuntu/pool/main/libu/libunwind/libunwind8_1.2.1-9build1_amd64.deb
 wget -nc http://ubuntu.cs.utah.edu/ubuntu/pool/universe/n/nasm/nasm_2.14.02-1_amd64.deb
 wget -nc http://security.ubuntu.com/ubuntu/pool/universe/b/busybox/busybox_1.30.1-4ubuntu6.4_amd64.deb
+wget -nc http://ubuntu.cs.utah.edu/ubuntu/pool/main/b/babeltrace/libbabeltrace-dev_1.5.8-1build1_amd64.deb
+wget -nc http://ubuntu.cs.utah.edu/ubuntu/pool/main/b/babeltrace/libbabeltrace1_1.5.8-1build1_amd64.deb
+
 #pip download -d ./junk --only-binary=:all: --platform manylinux1_x86_64 --python-version 38 --implementation cp --abi cp38 z3-solver
 
 

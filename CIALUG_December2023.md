@@ -12,10 +12,10 @@ mojo build hello.mojo
 
 ## Performance beyond mojo
 * const/enum linting
-* GPU pin of hot cache - [PowerInfer Paper]() - [PowerInfer Github]()
+* GPU pin of hot cache - [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://ipads.se.sjtu.edu.cn/_media/publications/powerinfer-20231219.pdf) - [PowerInfer Github](https://github.com/SJTU-IPADS/PowerInfer)
 * tensor compression
-* MILR folding under the hood
-* SMT solving
+* More MILR for IO/cache levels
+* [Equality saturation](https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/47423/Willsey_washington_0250E_22746.pdf?sequence=1) 
 
 
 

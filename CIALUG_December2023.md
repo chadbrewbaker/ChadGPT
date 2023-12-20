@@ -4,7 +4,8 @@
 mojo build hello.mojo
 ./hello
 ```
-
+* JIT compilation with [LLVM ORC](https://releases.llvm.org/9.0.1/docs/ORCv2.html)
+* Multi-Level Intermediate Representation [MLIR](https://mlir.llvm.org) 
 * Mojo simd - [n-body demo](https://github.com/modularml/mojo/blob/cbba184e159f297f0f24f9299616015cf8bdd0f3/examples/nbody.mojo#L29)
 * Mojo autotune - [memset demo](https://github.com/modularml/mojo/blob/cbba184e159f297f0f24f9299616015cf8bdd0f3/examples/memset.mojo#L200)
   

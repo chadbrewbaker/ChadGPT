@@ -1,39 +1,19 @@
-# CIALUG December 2023 - Mojo Dojo
-
-
-```bash
-# Makefile for Mojo
-```
-
+# CIALUG December 2023 - Mojo and C/Linux intro
 
 ```bash
-# Static linking Mojo
+mojo build hello.mojo
+./hello
 ```
 
-```bash
-# Dynamic linking Mojo
-```
+* Mojo simd - n-body demo
+* Mojo autotune - memset demo
+  
 
-```bash
-# Unix holy trinity of IO - ENV, command line, stdin/stdout/stderr
 
-```
-
-```bash
-# wc in Mojo
-```
-
-```bash
-# mojo autotune
-```
-
-```bash
-# Mojo in llama.cpp
-```
-
-## Moar Performance!
+## Performance beyond mojo
 * const/enum linting
-* zstd compression of regions
+* GPU pin of hot cache - [PowerInfer Paper]() - [PowerInfer Github]()
+* tensor compression
 * MILR folding under the hood
 * SMT solving
 

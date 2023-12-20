@@ -5,8 +5,8 @@ mojo build hello.mojo
 ./hello
 ```
 
-* Mojo simd - n-body demo
-* Mojo autotune - memset demo
+* Mojo simd - [n-body demo](https://github.com/modularml/mojo/blob/cbba184e159f297f0f24f9299616015cf8bdd0f3/examples/nbody.mojo#L29)
+* Mojo autotune - [memset demo](https://github.com/modularml/mojo/blob/cbba184e159f297f0f24f9299616015cf8bdd0f3/examples/memset.mojo#L200)
   
 
 

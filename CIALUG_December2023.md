@@ -4,6 +4,7 @@
 mojo build hello.mojo
 ./hello
 ```
+* Only amd64 and arm64 - NVIDIA GPU support Q1 2024.
 * JIT compilation with [LLVM ORC](https://releases.llvm.org/9.0.1/docs/ORCv2.html)
 * Multi-Level Intermediate Representation [MLIR](https://mlir.llvm.org) - single static assignment for all the things.
 * Mojo simd - [n-body demo](https://github.com/modularml/mojo/blob/cbba184e159f297f0f24f9299616015cf8bdd0f3/examples/nbody.mojo#L29)

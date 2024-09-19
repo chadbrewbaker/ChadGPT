@@ -22,4 +22,5 @@ jobs:
       - run: pwd
       - run: gcc wc.c -o wc.out
       - run: cat wc.c | ./wc.out
+      - run: ausyscall --dump
 

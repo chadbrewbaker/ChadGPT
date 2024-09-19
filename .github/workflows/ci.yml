@@ -21,4 +21,5 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: pwd
       - run: gcc wc.c -o wc.out
-      - run: ./wc.out wc.c 
+      - run: cat wc.c | ./wc.out
+

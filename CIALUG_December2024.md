@@ -53,6 +53,71 @@ void* increment_counter(void* arg) {
 
 ## Tools and Techniques
 
+
+Named pipes write to file system. [fifo man page](https://man7.org/linux/man-pages/man7/fifo.7.html)
+
+"A FIFO special file (a named pipe) is similar to a pipe, except
+       that it is accessed as part of the filesystem.  It can be opened
+       by multiple processes for reading or writing.  When processes are
+       exchanging data via the FIFO, the kernel passes all data
+       internally without writing it to the filesystem.  Thus, the FIFO
+       special file has no contents on the filesystem; the filesystem
+       entry merely serves as a reference point so that processes can
+       access the pipe using a name in the filesystem."
+
+
+```c
+#include <sys/stat.h>
+int mkfifo (const char *filename, mode_t mode)
+// Use mkfifoat() if you want a relative path instead of an absolute path
+```
+
+"mkfifo() makes a FIFO special file with name pathname.  mode
+       specifies the FIFO's permissions.  It is modified by the
+       process's umask in the usual way: the permissions of the created
+       file are (mode & ~umask)."
+
+
+"F_SETPIPE_SZ (int; since Linux 2.6.35)
+              Change the capacity of the pipe referred to by fd to be at
+              least arg bytes.  An unprivileged process can adjust the
+              pipe capacity to any value between the system page size
+              and the limit defined in /proc/sys/fs/pipe-max-size"
+
+              
+
+```bash
+# Create a named pipe
+mkfifo my_pipe
+
+# Write to pipe in one terminal
+echo "Hello" > my_pipe
+
+# Read from pipe in another terminal
+cat < my_pipe
+```
+
+```bash
+# Set output buffer size to 1MB
+stdbuf -o1048576 command | next_command
+```
+```bash
+# Chunk to 1MB then pass to next process, might be good for not SPAMing a bus/network with small transfers
+command | dd bs=1M | next_command
+```
+
+
+
+[tee man page](https://www.man7.org/linux/man-pages/man1/tee.1.html)
+"tee - read from standard input and write to standard output and
+       files"
+
+```c
+#include <fcntl.h>
+ssize_t tee(int fd_in, int fd_out, size_t len, unsigned int flags);
+```
+
+
 ### Named Pipes Example
 ```bash
 #!/bin/bash

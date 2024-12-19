@@ -5,6 +5,15 @@
 yes "Don't you hate dialup?" | write $USERNAME&
 ```
 
+Pipes date back to [Doug McIlroy](https://thenewstack.io/pipe-how-the-system-call-that-ties-unix-together-came-about/) at Bell Labs.
+
+[McIlroy Power Series lecture at LambdaConf](https://www.youtube.com/watch?v=jaHoYy2rnUc)
+
+
+[McIlroy and Kernigan](https://www.youtube.com/watch?v=Xe5ffO6Ouwg)
+
+
+[McIlroy Power Serious papers](https://www.cs.dartmouth.edu/~doug/powser.html)
 
 ## CPU Architecture and Memory Hierarchy
 

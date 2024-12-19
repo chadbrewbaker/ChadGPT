@@ -1,5 +1,11 @@
 # Data Movement in Modern Systems: From CPU Caches to the Cloud
 
+```bash
+# Do not try this on a DEC Alpha.
+yes "Don't you hate dialup?" | write $USERNAME&
+```
+
+
 ## CPU Architecture and Memory Hierarchy
 
 ### Cache Line Example

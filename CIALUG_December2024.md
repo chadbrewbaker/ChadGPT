@@ -15,6 +15,9 @@ Pipes date back to [Doug McIlroy](https://thenewstack.io/pipe-how-the-system-cal
 
 [McIlroy Power Serious papers](https://www.cs.dartmouth.edu/~doug/powser.html)
 
+[Why pipes get stuck buffering (Julia Evans)](https://jvns.ca/blog/2024/11/29/why-pipes-get-stuck-buffering/)
+
+
 ## CPU Architecture and Memory Hierarchy
 
 ### Cache Line Example
